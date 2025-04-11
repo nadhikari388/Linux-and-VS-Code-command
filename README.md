@@ -116,13 +116,20 @@ Git is a powerful tool for version control, allowing you to track changes, manag
 | Revert a commit                   | `git revert <commit_hash>`                  |
 
 ##  Branch 
+## 🌱 Git Branching
 
 | **Task**                                       | **Command**                                 |
-|----------------------------------             -|---------------------------------------------|
-| Rename the current branch from master to main: | `git branch -m master main`                 |
-| to see all the branch                          | `git branch -a`                             |
-| To rename any branch                           | `git branch -m old_name new_name`           |
-| To create a new branch                         | `git checkout -b branch_name`               |
+|-----------------------------------------------|---------------------------------------------|
+| Rename the current branch from master to main | `git branch -m master main`                 |
+| See all branches                              | `git branch -a`                             |
+| Rename any branch                             | `git branch -m old_name new_name`           |
+| Create a new branch                           | `git checkout -b branch_name`               |
 
-## Configuration
-| TO set username                                | `git config --global user.name "User name"`  |
+---
+
+## ⚙️ Git Configuration
+
+| **Task**                                       | **Command**                                 |
+|-----------------------------------------------|---------------------------------------------|
+| Set the username                              | `git config --global user.name "Your Name"`  |
+| Set the email address                         | `git config --global user.email "you@example.com"` |
