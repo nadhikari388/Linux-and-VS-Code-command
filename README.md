@@ -117,10 +117,12 @@ Git is a powerful tool for version control, allowing you to track changes, manag
 
 ##  Branch 
 
-| Rename the current branch from master to main: | `git branch -m master main`        |
-| to see all the branch                          | `git branch -a`                    |
-| To rename any branch                           | `git branch -m old_name new_name`  |
-| To create a new branch                         | `git checkout -b branch_name`      |
+| **Task**                                       | **Command**                                 |
+|----------------------------------             -|---------------------------------------------|
+| Rename the current branch from master to main: | `git branch -m master main`                 |
+| to see all the branch                          | `git branch -a`                             |
+| To rename any branch                           | `git branch -m old_name new_name`           |
+| To create a new branch                         | `git checkout -b branch_name`               |
 
 ## Configuration
-| TO Set username                                 | `gitz config --global user.name "User name"`  |
+| TO set username                                | `git config --global user.name "User name"`  |
