@@ -78,6 +78,7 @@ Git is a powerful tool for version control, allowing you to track changes, manag
 | Fetch changes from remote         | `git fetch`                                 |
 | Pull changes from remote          | `git pull origin <branch_name>`             |
 | Push changes to remote            | `git push origin <branch_name>`             |
+| Push changes to remote upstream   | `git push -u origin <branch_name>`          |
 | Remove a remote                   | `git remote remove <remote_name>`           |
 
 ---
@@ -113,3 +114,13 @@ Git is a powerful tool for version control, allowing you to track changes, manag
 | Discard changes in a file         | `git checkout -- <file>`                    |
 | Reset to a specific commit        | `git reset --hard <commit_hash>`            |
 | Revert a commit                   | `git revert <commit_hash>`                  |
+
+##  Branch 
+
+| Rename the current branch from master to main: | `git branch -m master main`        |
+| to see all the branch                          | `git branch -a`                    |
+| To rename any branch                           | `git branch -m old_name new_name`  |
+| To create a new branch                         | `git checkout -b branch_name`      |
+
+## Configuration
+| TO Set username                                 | `gitz config --global user.name "User name"`  |
