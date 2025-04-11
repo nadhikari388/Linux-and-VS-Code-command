@@ -44,3 +44,72 @@ In this project, I have listed all the essential commands used in the **Linux te
 | Open a specific folder                | `code foldername`                             |
 | Open with admin/sudo (if permitted)   | `sudo code .`                                 |
 
+##  Git Commands
+
+Git is a powerful tool for version control, allowing you to track changes, manage repositories, and collaborate with other developers.
+
+---
+
+### **Basic Git Commands**
+
+| **Task**                          | **Command**                                 |
+|-----------------------------------|---------------------------------------------|
+| Initialize a Git repository       | `git init`                                  |
+| Check the status of the repository| `git status`                                |
+| Add changes to the staging area   | `git add <file>`                            |
+| Add all changes to the staging area| `git add .`                                 |
+| Commit changes                    | `git commit -m "Your commit message"`       |
+| View commit history               | `git log`                                   |
+| See changes between commits       | `git diff`                                  |
+| Create a new branch               | `git branch <branch_name>`                  |
+| List all branches                 | `git branch`                                |
+| Switch branches                   | `git checkout <branch_name>`                |
+| Merge a branch                    | `git merge <branch_name>`                   |
+| Delete a branch                   | `git branch -d <branch_name>`               |
+
+---
+
+### **Working with Remotes**
+
+| **Task**                          | **Command**                                 |
+|-----------------------------------|---------------------------------------------|
+| Add a remote repository           | `git remote add origin <repository_url>`    |
+| View remote repositories          | `git remote -v`                             |
+| Fetch changes from remote         | `git fetch`                                 |
+| Pull changes from remote          | `git pull origin <branch_name>`             |
+| Push changes to remote            | `git push origin <branch_name>`             |
+| Remove a remote                   | `git remote remove <remote_name>`           |
+
+---
+
+### **Working with Tags**
+
+| **Task**                          | **Command**                                 |
+|-----------------------------------|---------------------------------------------|
+| Create a tag                      | `git tag <tag_name>`                        |
+| View tags                         | `git tag`                                   |
+| Push a tag to remote              | `git push origin <tag_name>`                |
+| Delete a tag locally              | `git tag -d <tag_name>`                     |
+| Delete a tag from remote          | `git push origin --delete <tag_name>`       |
+
+---
+
+### **Stashing Changes**
+
+| **Task**                          | **Command**                                 |
+|-----------------------------------|---------------------------------------------|
+| Stash changes                     | `git stash`                                 |
+| List stashed changes              | `git stash list`                            |
+| Apply stashed changes             | `git stash apply`                           |
+| Drop a stashed change             | `git stash drop`                            |
+
+---
+
+### **Undo Changes**
+
+| **Task**                          | **Command**                                 |
+|-----------------------------------|---------------------------------------------|
+| Unstage changes                   | `git reset <file>`                          |
+| Discard changes in a file         | `git checkout -- <file>`                    |
+| Reset to a specific commit        | `git reset --hard <commit_hash>`            |
+| Revert a commit                   | `git revert <commit_hash>`                  |
