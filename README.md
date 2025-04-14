@@ -139,7 +139,7 @@ Git is a powerful tool for version control, allowing you to track changes, manag
 
 | **Task**                                        | **Command**                                 |
 |-------------------------------------------------|---------------------------------------------|
-| List all libraries in the active conda environment | `conda list`                               |
+| List all libraries in the active conda environment | `conda list`                             |
 | List libraries in a specific conda environment  | `conda list -n environment_name`            |
 | Activate a specific conda environment           | `conda activate environment_name`           |
 | Deactivate the current conda environment        | `conda deactivate`                          |
