@@ -143,3 +143,6 @@ Git is a powerful tool for version control, allowing you to track changes, manag
 | List libraries in a specific conda environment  | `conda list -n environment_name`            |
 | Activate a specific conda environment           | `conda activate environment_name`           |
 | Deactivate the current conda environment        | `conda deactivate`                          |
+
+# hdf5 with parallel 
+conda install -c conda-forge mpich hdf5=1.14.4=mpi_mpich_* compilers
