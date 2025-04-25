@@ -146,3 +146,4 @@ Git is a powerful tool for version control, allowing you to track changes, manag
 
 # hdf5 with parallel 
 conda install -c conda-forge mpich hdf5=1.14.4=mpi_mpich_* compilers
+conda create -n hdf5_mpi_env -c conda-forge mpi4py h5py=*=mpi_openmpi* openmpi
